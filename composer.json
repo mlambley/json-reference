@@ -1,5 +1,5 @@
 {
-    "name": "league/json-reference",
+    "name": "mlambley/json-reference",
     "type": "library",
     "description": "A library for working with JSON References",
     "keywords": [
@@ -10,10 +10,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Matthew Allan",
-            "email": "matthew.james.allan@gmail.com",
-            "homepage": "https://mattallan.org",
-            "role": "Developer"
+            "name": "Mark Lambley",
+            "email": "mlambley@gmail.com"
         }
     ],
     "require": {

@@ -5,7 +5,7 @@ title: Decoding
 
 # Decoders
 
-Anytime a schema is decoded it uses a decoder. Decoders are registered for a specific file extension. You need to register the proper decoder for the file type you would like to decode. 
+Anytime a schema is decoded it uses a decoder. Decoders are registered for a specific file extension. You need to register the proper decoder for the file type you would like to decode.
 
 Decoders can also be decorated to add behavior like caching.
 
@@ -20,7 +20,7 @@ By default the 'json' decoder is used.
 
 ## Custom Decoders
 
-You can make your own decoders by implementing the [Decoder Interface](https://github.com/thephpleague/json-reference/blob/master/src/DecoderInterface.php).
+You can make your own decoders by implementing the [Decoder Interface](https://github.com/mlambley/json-reference/blob/master/src/DecoderInterface.php).
 
 Imagine you may want to decode schemas from a xml document, and your references look like this:
 

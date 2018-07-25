@@ -65,7 +65,7 @@ The cached loader takes a [PSR-16 Simple Cache](https://github.com/php-fig/fig-s
 
 ## Custom Loaders
 
-You can make your own loaders by implementing the [Loader Interface](https://github.com/thephpleague/json-reference/blob/master/src/LoaderInterface.php).
+You can make your own loaders by implementing the [Loader Interface](https://github.com/mlambley/json-reference/blob/master/src/LoaderInterface.php).
 
 Imagine you may want to load schemas from a CouchDb database, and your references look like this:
 
